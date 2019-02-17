@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+.row div{
+    display: flex;
+    flex-direction: row;
+}
+.tile {
+    height: 50px;
+    width: 50px;
+    background: #5ae8d5;
+    border: 3px solid plum;
+    border-style: outset;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+.tile:hover {
+    background: #119b89;
+}
+.explored {
+    background: #119b89;
+    border: 2px solid plum;
+    border-style: inset;
+}
